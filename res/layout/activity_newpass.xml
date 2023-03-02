@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newpass"
+    android:orientation="horizontal"
+    android:background="#F5F5F5"
+    >
+
+    <EditText
+        android:id="@+id/roostartt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="start station:"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/rootstop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="end station:"
+        android:textSize="20dp"
+        android:layout_below="@+id/roostartt"/>
+    <EditText
+        android:id="@+id/validity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rootstop"
+        android:layout_marginTop="40dp"
+        android:hint="Pass validity:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/validity"
+        android:layout_marginTop="40dp"
+        android:hint="distance: (in km)"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accept"
+        android:layout_below="@+id/distance"
+        android:text="I accept above details are right."/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Submit"
+        android:layout_below="@+id/accept"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

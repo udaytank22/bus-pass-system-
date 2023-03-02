@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".downlod"
+    android:layout_marginLeft="10dp">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="pass_id"
+    android:id="@+id/pass_id"
+    android:textSize="20dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass_id1"
+        android:textSize="20dp"
+        android:layout_below="@id/pass_id"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/name"
+        android:textSize="20dp"
+        android:layout_below="@id/pass_id1"
+ />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name1"
+        android:textSize="20dp"
+        android:layout_below="@+id/name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Validity"
+        android:id="@+id/validity"
+        android:layout_below="@+id/name1"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/validity1"
+        android:textSize="20dp"
+        android:layout_below="@+id/validity"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Route"
+        android:textSize="20dp"
+        android:id="@+id/route"
+        android:layout_below="@+id/validity1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/route1"
+        android:textSize="20dp"
+        android:layout_below="@+id/route"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="status"
+        android:textSize="20dp"
+        android:id="@+id/status"
+        android:layout_below="@+id/route1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/status1"
+        android:textSize="20dp"
+        android:layout_below="@+id/status" />
+</RelativeLayout>
